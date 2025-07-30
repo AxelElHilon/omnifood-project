@@ -129,6 +129,7 @@ Privacy & terms
 
 ## Sections
 
+- Navegation
 - Hero
 - Features
 - How it works
