@@ -135,8 +135,7 @@ Privacy & terms
 - Features
 - How it works
 - Diets (and meals)
-- Gallery
-- Testimonials
+- Testimonials and Gallery
 - Pricing
 - CTA
 - Footer
