@@ -70,6 +70,7 @@ body {
   display: inline-block;
   color: #fff;
   font-size: 2rem;
+  font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 10px;
   text-decoration: none;
@@ -87,11 +88,11 @@ body {
 }
 .btn--left:link,
 .btn--left:visited {
-  color: #5c940d;
+  color: #375908;
 }
 .btn--left:hover,
 .btn--left:active {
-  color: #53850c;
+  color: #2e4a07;
 }
 .margin-right-sm {
   margin-right: 1.6rem;
@@ -99,4 +100,31 @@ body {
 
 .hero-img {
   width: 100%;
+}
+.delivered-meals {
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+.delivered-imgs {
+  display: flex;
+}
+.delivered-imgs img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 2px solid #fff;
+}
+.delivered-imgs img:last-child {
+  margin: 0;
+}
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.delivered-text span {
+  font-weight: 600;
+  color: #375908;
 }
