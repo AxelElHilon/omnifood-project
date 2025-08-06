@@ -54,7 +54,6 @@
 .section-hero {
   background-color: #eff4e7;
   padding: 4.8rem 0 9.6rem 0;
-  box-shadow: inset 0 -12px 24px rgba(0, 0, 0, 0.3);
 }
 .hero {
   display: grid;
@@ -155,4 +154,83 @@
   width: 50%;
   padding-bottom: 50%;
   background-color: #cedfb6;
+}
+
+/* SECTION FEATURED */
+.section-features {
+  padding: 4.8rem 0 3.2rem 0;
+  background-color: #deeacf;
+}
+.heading-features {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  width: 9.8rem;
+  height: auto;
+  filter: brightness(0);
+  opacity: 60%;
+}
+
+/* SECTION MEALS */
+
+.section-meals {
+  padding: 9.6rem;
+  background-color: #deeacf;
+}
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.07);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.meal-content {
+  padding: 2.4rem 4.8rem 4.8rem 4.8rem;
+}
+.meal-title {
+  font-size: 2rem;
+  color: #2e4a07;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.img-meals {
+  width: 100%;
+}
+.meal-tags {
+  margin-bottom: 1.2rem;
+}
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #2e4a07;
+  color: #deeacf;
+  border-radius: 30px;
+  font-weight: 400;
+}
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #2e4a07;
 }
