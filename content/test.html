@@ -7,19 +7,18 @@
     <style>
       .grid {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
         max-width: 800px;
         margin: auto;
-        overflow: hidden;
       }
-
+      figure {
+        overflow: hidden;
+        margin: 0;
+      }
       .grid img {
         width: 100%;
-        height: auto;
         transition: all 0.3s ease;
-        object-fit: cover;
-        aspect-ratio: 1;
+        margin: 0;
       }
 
       .grid:hover img {
@@ -35,18 +34,18 @@
   </head>
   <body>
     <div class="grid">
-      <img src="img/gallery/gallery-1.jpg" />
-      <img src="img/gallery/gallery-2.jpg" />
-      <img src="img/gallery/gallery-3.jpg" />
-      <img src="img/gallery/gallery-4.jpg" />
-      <img src="img/gallery/gallery-5.jpg" />
-      <img src="img/gallery/gallery-6.jpg" />
-      <img src="img/gallery/gallery-7.jpg" />
-      <img src="img/gallery/gallery-8.jpg" />
-      <img src="img/gallery/gallery-9.jpg" />
-      <img src="img/gallery/gallery-10.jpg" />
-      <img src="img/gallery/gallery-11.jpg" />
-      <img src="img/gallery/gallery-12.jpg" />
+      <figure><img src="img/gallery/gallery-1.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-2.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-3.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-4.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-5.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-6.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-7.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-8.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-9.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-10.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-11.jpg" /></figure>
+      <figure><img src="img/gallery/gallery-12.jpg" /></figure>
     </div>
   </body>
 </html>
