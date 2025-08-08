@@ -365,3 +365,28 @@
   text-align: center;
   margin-top: 4.8rem;
 }
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+.feature-icon {
+  color: #2e4a07;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-bottom: 3.2rem;
+  background-color: #cedfb6;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+.features-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.features-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #333;
+}
