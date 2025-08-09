@@ -395,6 +395,7 @@
 /************************/
 .section-cta {
   padding: 9.6rem;
+  background-color: #deeacf;
 }
 .cta {
   display: grid;
@@ -455,4 +456,11 @@
 }
 .cta-form input::placeholder {
   color: #aaa;
+}
+/************************/
+/* SECTION FOOTER */
+/************************/
+.footer {
+  padding: 9.6rem;
+  background-color: #deeacf;
 }
