@@ -108,6 +108,7 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -118,12 +119,22 @@ body {
   border-radius: 10px;
   text-decoration: none;
   transition: all 250ms ease-in;
+  border: none;
+  cursor: pointer;
 }
-
+.btn--form {
+  background-color: #53850c;
+  align-self: end;
+  padding: 1.2rem;
+}
+.btn--form:hover {
+  background-color: #2e4a07;
+  color: #fff;
+}
 .btn--right:link,
 .btn--right:visited {
   background-color: #5c940d;
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); */
 }
 .btn--right:hover,
 .btn--right:active {
@@ -181,4 +192,9 @@ strong {
   width: 3rem;
   height: 3rem;
   color: #2e4a07;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(37, 59, 5, 0.516);
 }
