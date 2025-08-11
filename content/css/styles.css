@@ -19,7 +19,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
   color: #333;
 }
 
@@ -172,12 +172,11 @@
 }
 .logos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .logos img {
-  width: 9.8rem;
-  height: auto;
+  height: 2.4rem;
   filter: brightness(0);
   opacity: 60%;
 }
@@ -514,7 +513,7 @@
   font-size: 1.4rem;
   line-height: 1.6;
   color: #777;
-  margin-top: auto;
+  margin-top: 2.4rem;
 }
 .address {
   margin-bottom: 2.4rem;
