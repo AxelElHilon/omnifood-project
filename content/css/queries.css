@@ -187,6 +187,12 @@ Instead, 1rem = 1em = 16px */
   .grid--4--cols {
     grid-template-columns: 1fr;
   }
+  .pricing-card--starter {
+    justify-self: center;
+  }
+  .pricing-card--complete {
+    justify-self: center;
+  }
   .btn,
   .btn:link,
   .btn:visited {
